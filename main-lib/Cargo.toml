@@ -1,0 +1,9 @@
+[package]
+name = "main-lib"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+serde = "1.0.219"
+thiserror = "2.0.12"
