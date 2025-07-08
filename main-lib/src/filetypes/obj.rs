@@ -1,7 +1,6 @@
 use serde::{
     Deserialize, Deserializer, Serialize, Serializer,
     de::{self, Visitor},
-    ser::{self, SerializeSeq, SerializeStruct},
 };
 use std::num::ParseFloatError;
 use thiserror::Error;
